@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&family=Yeseva+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    background-color: #FAFDFE;
+    overflow-x: hidden;
+}
+.header-img {
+    background-image: url(../images/contact-img/Rectangle\ 4.png), url(../images/contact-img/Rectangle\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-size: cover;
+    display: block;
+}
+.rec{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.header-text {
+    color: #1F2B6C;
+}
+.header-text h3 {
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: -1rem;
+    font-size: 2rem;
+}
+.eclipse {
+    width: 10%;
+}
+.git {
+    color: #159EEC;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.contact {
+    color:  #1F2B6C;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: normal;
+}
+input::placeholder, textarea::placeholder{
+    color: white;
+    opacity: 1; 
+    font-size: 0.7rem;
+}
+  
+input::-ms-input-placeholder, textarea::-ms-input-placeholder{ 
+    color: white;
+}
+ #submit-btn {
+      background-color: #BFD2F8;
+      color: #1F2B6C;
+}
+#form-item {
+    background-color:#1F2B6C;
+}
+textarea {
+    background-color:#1F2B6C;
+}
+.dark-blue {
+    height: 9.8rem;
+    width: 100%;
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+}
+.sky-blue {
+    height: 9.8rem;
+    width: 100%;
+    background-color:#BFD2F8;
+    color: #1F2B6C;
+}
+.blue-content {
+    line-height: 0.5rem;
+    font-size: 0.8rem;
+}
+    #submit-btn {
+    font-size: 0.8rem;
+    color: #1F2B6C;
+}
+.text-seablue{
+    color: #159EEC;
+}
+.text-skyblue{
+    color: #BFD2F8;
+}
+.text-darkblue{
+    color: #1F2B6C;
+}
+.yeseva-2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 2rem;
+}
+.body{
+    font-size: 1rem;
+}
+.small{
+    font-size: 0.7rem;
+}
+@media (max-width:480px) {
+.header-img {
+    background-position: 80% 70%;
+    background-size: cover;
+    object-fit: cover;
+}
+.contact-text {
+    text-align: center;
+}
+}
+@media (max-width:800px) {
+    .header-img {
+        background-position: 80% 70%;
+        background-size: cover;
+        object-fit: cover;
+    }
+}

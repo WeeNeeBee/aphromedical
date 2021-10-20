@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Yeseva;
+}
+ .hero-bg{
+   position: relative;
+  background:url(../images/home-images/Physician_Trends_2021_.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 520px;
+    
+}
+
+.elipse{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-content{
+    position: absolute;
+     top: 35%;
+     left: 20%;
+     z-index: 10;     
+}
+
+.hero-content h3, .welcome h3, .spt-content h3, .serv-sect h3, .serv-title h3{
+    color: #1F2B6C;    
+}
+
+.hero-content p, .welcome p, .spt-content p, .serv-sect p, .book-apt h3, .serv-title p{
+    color: #159EEC;   
+}
+
+.appointment {
+    position: relative;
+    top: -50px;
+}
+.bg1 {
+    background: #1F2B6C;
+}
+
+.bg2 {
+    background: #BFD2F8;
+}
+
+.bg3 {
+    background:#159EEC;
+}
+
+.appointment-box {
+     padding: 20px;
+     justify-content: space-between;
+}
+
+.link1 a{
+    text-decoration: none;
+}
+
+.serv-list ul{
+    list-style: none;
+}
+.serv-list ul li::before{
+    content: "\2022";
+    color: #159EEC;
+   font-weight: bolder;
+   font-size: 25px;
+    display: inline-block;
+    width: 1em;
+     margin-left: -1em;
+}
+
+.specialty-row {
+ width: 100%;
+}
+.serv-row{
+    width: 90%;
+}
+
+.book-apt{
+    background:linear-gradient(rgba(247, 246, 246, 0.836),rgba(247, 246, 246, 0.829)),url(../images/home-images/Rectangle\ 33.jpg);
+    min-height: 550px;
+}
+
+.body1 {
+    background-color: #BFD2F8;
+}
+
+  input::placeholder, textarea::placeholder{
+    color: white !important;
+    opacity: 1; 
+  }
+  
+  input::-ms-input-placeholder, textarea::-ms-input-placeholder{ 
+    color: white !important;
+  }
+​
+  input:-ms-input-placeholder, textarea:-ms-input-placeholder{ 
+    color: white !important;
+  }
+​
+
+/* news and contact css */
+.git {
+    color: #159EEC;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.dark-blue {
+    height: 15rem;
+    width: 100%;
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+}
+.sky-blue {
+    height: 15rem;
+    width: 100%;
+    background-color:#BFD2F8;
+    color: #1F2B6C;
+}
+.blue-content {
+    line-height: 0.5rem;
+    font-size: 0.8rem;
+}
+    #submit-btn {
+    font-size: 0.8rem;
+    color: #1F2B6C;
+}
+.text-seablue{
+    color: #159EEC;
+}
+.text-skyblue{
+    color: #BFD2F8;
+}
+.text-darkblue{
+    color: #1F2B6C;
+}
+.yeseva-2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 2rem;
+}
+.body{
+    font-size: 1rem;
+}
+.small{
+    font-size: 0.7rem;
+}
+.git {
+    color: #159EEC;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.contact {
+    color:  #1F2B6C;
+    font-family: 'Yeseva One', cursive;
+    font-style: normal;
+    font-weight: normal;
+}
+
+form .bg-primary{
+    background-color:#1F2B6C !important;
+   }
+#submit-btn{
+    background-color: #BFD2F8;
+         color: #1F2B6C;
+}
+
+
+
+/* navbar and footer css */
+a:link{
+    text-decoration: none;
+}
+
+.first-nav-link{
+    display: flex;
+ width: 100%;
+}
+
+
+.first-link-para{
+    font-size: 13px;
+    font-family: Work Sans;
+    color: #1F2B6C;
+    font-weight: 500;
+}
+.first-nav-link-mobile{
+    display: flex;
+    width: 100%;
+}
+
+.first-link-para-mobile{
+    font-size: 9px;
+    font-family: Work Sans;
+    color: #1F2B6C;
+    font-weight: 500;
+}
+
+
+
+.span-text{
+    color: #159EEC;
+    font-weight: 500;
+}
+
+.icon-col{
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 10% !important;
+}
+
+.icons{
+    width: 23px;
+}
+.icons-mobil{
+    width: 16px;
+}
+
+
+/* main styling start */
+/* .main-navbar-container{
+    display: flex;
+} */
+
+/* .main-navbar-logo{
+    width: 40%;
+} */
+
+.main-nav-btn{
+    font-family: Work Sans;
+    font-size: 14px;
+}
+
+.main-nav-btn:hover{
+    outline: none !important;
+    border: none;
+}
+
+.active{
+    font-family: Work Sans;
+    color: #BFD2F8;
+}
+
+.active:hover{
+    color:white ;
+}
+
+.main-inner-links{
+    font-family: Work Sans;
+    font-size: 15px;
+    color: #FCFEFE;
+}
+
+.main-inner-links:hover{
+    color: #159EEC;
+}
+.footer-row {
+ width: 100%;
+}
+
+.footer-para{
+    font-family: Yeseva;
+    font-size: 13px;
+    color: #FCFEFE;
+    margin-top: 30px;
+}
+
+.footer-head{
+    font-family: Work Sans;
+    font-size: 16px;
+    color: #FCFEFE;
+    margin-top: 10px;
+}
+
+.input-group-text{
+    background: #BFD2F8;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+
+.form-control{
+    background: #BFD2F8 !important;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
+
+.footer-line{
+    background-color: #BFD2F8;
+    color: #BFD2F8;
+    margin: 0 auto;
+}
+
+.footer-last-para{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FCFEFE;
+}
+
+.footer-last-col{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.links{
+    list-style: none;
+    margin-top: 30px;
+}
+
+@media(max-width: 768px){
+    container, .container-md, .container-sm {
+        max-width: 720px;
+      
+    }
+    .medical{
+        overflow-x: hidden;
+    }
+    #mobile-footer-logo{
+        width: 50%;
+    }
+    .first-nav-container, .navbar{
+        display: none;
+    }
+
+    .first-link-para-mobile{
+        font-size: 19px;
+        font-family: Work Sans;
+        color: #1F2B6C;
+        font-weight: 500;
+    }
+  
+    .first-nav-container-mobile{
+      display: block;
+      padding: 0px;
+  }
+  
+    .mobile-col-single{
+        margin: 0 auto;
+        width: 40%;
+  }
+  
+  /* main navbar */
+  .navbar-mobile{
+      display: block;
+      /* border: solid red; */
+      padding-bottom: 26px;
+      padding-top: 20px;
+  }
+  
+  .navbar-collapse{
+      margin: 0 auto;
+      width: 100%;
+  }
+  
+  .navbar-toggler-icon{
+      float: right !important;
+  }
+  
+  .navbar-toggler{
+      margin: 0;
+      padding: 0;
+  }
+  
+    /* footer styling sart */
+  .footer-row-mobile{
+      display: block;
+  }
+  
+  .footer-row{
+      display: none;
+  }
+  
+  .footer-para-mobile{
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FCFEFE;
+      margin-top: 10px;
+  }
+  
+  .footer-para-mobile:hover{
+      text-decoration: none !important;
+      color: #FCFEFE;
+  
+  }
+  
+  .footer-last-para-mobile{
+      font-family: Work Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FCFEFE;
+  }
+  
+  .links{
+      list-style: none;
+      margin-top: 10px;
+  }
+  
+}
+
+
+@media (max-width:660px){
+    .container, .container-md, .container-sm {
+        max-width: 660px;
+      
+    }
+    
+    .hero-bg{
+       background:url(../images/home-images/Physician_Trends_2021_Merritt_Hawkins\ 1.png);
+       background-position: right;
+       min-height: 500px;
+     }
+     .hero-content{
+         top: 50%;
+         left: 10%;
+         text-align: center;
+    }
+    .elipse, .elipse1{
+        display: none;
+    } 
+    .appointment {    
+       display: none;
+    }
+    .welcome {
+        width: 100%;
+    }
+
+    .doc-welcome img{
+      width: 350px; 
+    }
+  
+    .specialty {
+       display: none;
+   }
+   .serv-container{
+       display: none;
+   }
+   .serv-img{
+       display: none;
+   }
+   /* .serv-row{ */
+    /* width: 100%; */
+    /* display: flex;
+    flex-wrap: wrap; */
+
+
+.serv-row .ms-5{
+        margin-left: 6rem!important;
+    }
+  .book-row{
+      margin-bottom: 2rem;
+      padding-bottom:2rem;
+  }
+  
+}
+
+
+@media(max-width: 540px){
+ 
+    /* #main-navbar-logo{
+        width: 30% !important;
+    } */
+
+  .first-nav-container, .navbar{
+      display: none;
+  }
+
+  .first-link-para-mobile{
+    font-size: 10px !important;
+    font-family: Work Sans;
+    color: #1F2B6C;
+    font-weight: 500;
+}
+
+.first-nav-container-mobile{
+    display: block;
+    padding: 0px;
+}
+
+  .mobile-col-single{
+      margin: 0 auto;
+      width: 20%;
+}
+/* main navbar */
+.navbar-collapse{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar-toggler-icon{
+    float: right!important;
+}
+
+.navbar-toggler{
+    margin: 0;
+    padding: 0;
+}
+.footer-row-mobile{
+    display: block;
+}
+
+.footer-row{
+    display: none;
+}
+
+.footer-para-mobile{
+    font-size: 8px !important;
+    line-height: 24px;
+    color: #FCFEFE;
+    margin-top: 10px;
+}
+
+.footer-head{
+    font-size: 12px;
+}
+
+.footer-para-mobile:hover{
+    text-decoration: none !important;
+    color: #FCFEFE;
+
+}
+
+.footer-last-para-mobile{
+    font-size: 7px !important;
+    line-height: 19px;
+    color: #FCFEFE;
+}
+
+.links{
+    list-style: none;
+    margin-top: 10px;
+}
+
+}
